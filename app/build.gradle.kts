@@ -53,7 +53,7 @@ dependencies {
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.graphics)
     implementation(libs.compose.material3)
+    implementation(libs.compose.activity)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.core.ktx)
-    implementation(libs.activity.compose)
 }
