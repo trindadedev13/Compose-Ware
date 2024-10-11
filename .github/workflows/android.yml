@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Build ComposeWare
+    name: Build VisualCompose
     runs-on: ubuntu-latest
 
     steps:
@@ -31,11 +31,11 @@ jobs:
       - name: Validate Gradle wrapper
         uses: gradle/actions/wrapper-validation@v4
         
-      - name: Build ComposeWare Debug
+      - name: Build VisualCompose Debug
         run: ./gradlew assembleDebug
 
       - name: Upload debug app
         uses: actions/upload-artifact@v4
         with:
-          name: compose-ware-debug
+          name: visual-space-debug
           path: app/build/outputs/apk/debug/
