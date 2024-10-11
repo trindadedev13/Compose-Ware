@@ -37,5 +37,5 @@ jobs:
       - name: Upload debug app
         uses: actions/upload-artifact@v4
         with:
-          name: visual-space-debug
+          name: visual-compose-debug
           path: app/build/outputs/apk/debug/
