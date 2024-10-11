@@ -1,4 +1,4 @@
-package dev.trindadedev.composeware.ui.theme
+package dev.trindadedev.visualcompose.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -81,7 +81,7 @@ val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun ComposeWareTheme(
+fun VisualComposeTheme(
         darkTheme: Boolean = isSystemInDarkTheme(),
         dynamicColor: Boolean = true,
         content: @Composable () -> Unit

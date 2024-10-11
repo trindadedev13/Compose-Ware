@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "dev.trindadedev.composeware"
+    namespace = "dev.trindadedev.visualcompose"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        applicationId = "dev.trindadedev.composeware"
+        applicationId = "dev.trindadedev.visualcompose"
         versionCode = 1
         versionName = "1.0"
         

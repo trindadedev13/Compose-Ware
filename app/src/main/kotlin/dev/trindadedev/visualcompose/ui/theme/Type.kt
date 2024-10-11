@@ -1,4 +1,4 @@
-package dev.trindadedev.composeware.ui.theme
+package dev.trindadedev.visualcompose.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

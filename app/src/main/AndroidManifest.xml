@@ -10,7 +10,7 @@
         android:supportsRtl="true" 
         android:theme="@style/AppTheme">
         <activity 
-            android:name="dev.trindadedev.composeware.ui.activities.MainActivity" 
+            android:name="dev.trindadedev.visualcompose.ui.activities.MainActivity" 
             android:exported="true">
             <intent-filter>
                 <action 

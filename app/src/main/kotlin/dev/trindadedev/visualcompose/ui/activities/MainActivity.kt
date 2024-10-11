@@ -1,4 +1,4 @@
-package dev.trindadedev.composeware.ui.activities
+package dev.trindadedev.visualcompose.ui.activities
 
 import android.os.Bundle
 
@@ -11,7 +11,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 
-import dev.trindadedev.composeware.ui.theme.ComposeWareTheme
+import dev.trindadedev.visualcompose.ui.theme.VisualComposeTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ComposeWareTheme {
+            VisualComposeTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background) {
