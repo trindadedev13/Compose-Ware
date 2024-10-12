@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
-import dev.trindadedev.visualcompose.ui.theme.VisualComposeTheme
 import dev.trindadedev.visualcompose.ui.screens.home.HomeScreen
+import dev.trindadedev.visualcompose.ui.theme.VisualComposeTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
@@ -24,8 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                        // todo: navhost
-                        HomeScreen()
+                    // todo: navhost
+                    HomeScreen()
                 }
             }
         }
