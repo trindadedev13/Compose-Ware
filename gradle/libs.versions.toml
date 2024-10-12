@@ -41,7 +41,7 @@ compose-material-motion-core = { group = "io.github.fornewid", name = "material-
 compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose-material-icons" }
 
 # Android X Core
-androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen" version.ref = "androidx-core-splashscreen" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-core-splashscreen" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 
 # KotlinX
