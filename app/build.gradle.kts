@@ -40,7 +40,7 @@ android {
         compose = true
     }
     
-    packagingOptions {
+    packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
@@ -63,6 +63,7 @@ dependencies {
     implementation(libs.compose.ui.graphics)
     implementation(libs.compose.material3)
     implementation(libs.compose.activity)
+    implementation(libs.compose.material.icons.extended)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.core.ktx)
 }

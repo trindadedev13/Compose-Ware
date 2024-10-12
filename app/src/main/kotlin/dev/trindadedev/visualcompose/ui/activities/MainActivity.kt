@@ -10,7 +10,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import dev.trindadedev.visualcompose.ui.theme.VisualComposeTheme
+import dev.trindadedev.visualcompose.ui.screens.home.HomeScreen
 
+@OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +23,10 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
-                ) {}
+                ) {
+                        // todo: navhost
+                        HomeScreen()
+                }
             }
         }
     }

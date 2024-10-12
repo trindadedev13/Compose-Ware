@@ -14,6 +14,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "ComposeWare"
+rootProject.name = "Visual-Compose"
 
 include(":app")
