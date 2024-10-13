@@ -1,7 +1,7 @@
 package dev.trindadedev.visualcompose.ui.screens.home
 
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.Add
+import compose.icons.TablerIcons
+import compose.icons.tablericons.Settings
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
@@ -34,7 +34,7 @@ private fun ActionButton() {
             // todo: navController.navigate(Screen.Setting.route)
         },
         text = { Text(text = stringResource(id = Strings.label_create_project)) },
-        icon = { Icon(imageVector = Icons.Outlined.Add, contentDescription = null) },
+        icon = { Icon(imageVector = TablerIcons.Settings, contentDescription = null) },
     )
 }
 
