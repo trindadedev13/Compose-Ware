@@ -12,7 +12,7 @@ android-minSdk = "26"
 
 androidx-core-splashscreen = "1.0.1"
 
-compose-bom = "2024.09.03"  
+compose-bom = "2024.10.00"  
 compose-activity = "1.9.3"
 compose-navigation = "2.8.3"
 compose-material-motion = "2.0.1"
